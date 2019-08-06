@@ -70,7 +70,7 @@ export default spec => ({
       if (store.nextReaction) {
         // let browser chill
         // Sridhar: Background downloader need to execute even when the app is minimized.
-        //ric is not triggered when app is minimized. So changed to timeout        
+        //ric is not triggered when app is minimized. So changed to timeout
         // ric(() => {
         //   const { nextReaction } = store
         //   store.activeReactor = null
